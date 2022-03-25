@@ -1,0 +1,142 @@
+ git init
+    2  git ls
+    3  git status
+    4  rm -rf .git
+    5  mkdir test
+    6  ls
+    7  cd test
+    8  git init
+    9  ls
+   10  cd test
+   11  git config --global user.name Kelly
+   12  git config --global user.email Kelly@123
+   13  git config --global user.email Kelly123@gmail.com
+   14  cat>f1
+   15  git status
+   16  git add f1
+   17  git status
+   18  git commit -m "filke created"
+   19  git log
+   20  git status
+   21  git reset -HEAD~
+   22  git reset --HEAD~
+   23  git reset --HARD~
+   24   git reset --hard HEAD~
+   25  git reset --hard HEAD
+   26  git status
+   27  git log
+   28  ls
+   29  git reset --soft HEAD^
+   30  git reset --soft HEAD
+   31  git log
+   32  git status
+   33  git reset --soft  Head~
+   34  git reset --soft  HEAD~
+   35  git reset --soft HEAD~
+   36  git reset --soft HEAD~1
+   37  git reset --soft HEAD~
+   38  cat>file1
+   39  git add .
+   40  git commit -m "filke created"
+   41  git reset --soft HEAD~
+   42  git log
+   43  git status
+   44  git commit -m "filke created123"
+   45  git log
+   46  git reset --hard HEAD~
+   47  git log
+   48  git status
+   49  git init
+   50  mkdir test
+   51  git init
+   52  git status
+   53  git add .
+   54  git commit -m "fdfjhsdug"
+   55  git log
+   56  mkdir gitrrr
+   57  cd gitrrr
+   58  git init
+   59  git
+   60  pwd
+   61* ram
+   62  git config --global user.email ram@codewithram.com
+   63  config --list
+   64  git config --list
+   65  git status
+   66  git rrr ls
+   67  cat> radha
+   68  git add radha
+   69  git status
+   70  git commit -m "first commit"
+   71  git status
+   72  git log
+   73  git log -- oneline
+   74  git log --oneline
+   75  git log --oneline/wc -l
+   76  git log --oneline/wc -1
+   77  git show
+   78  git show 1617ada02b22a82bba47a5570ba21ab955b03907
+   79  git restore radha
+   80  https://github.com/Charan-1994/devops.git
+   81  git branch dev
+   82  git branch
+   83  git branch deva
+   84  git branch
+   85  g
+   86  git checkout dev
+   87  git branch
+   88  git branch rrr
+   89  git branch
+   90  git checkout rrr
+   91  clear
+   92  cd demo
+   93  mkdir demo
+   94  cd demo
+   95  ls
+   96  clear
+   97  git init .
+   98  cat>f1
+   99  cat f1
+  100  git add f1
+  101  git status
+  102  git log
+  103  git init .
+  104  git config -- global.name ramgit config -- global.name ram
+  105  git init .
+  106* git config --  global user.name ram
+  107  git config --global user.name ram
+  108  git config --global user.email ram@gmail.com
+  109  cat>f2
+  110  git status
+  111  git add f2
+  112  git status
+  113  git commit -m "the are very easy"
+  114  git status
+  115  git log
+  116  git status
+  117  git commit -m " 2 lines added in rrr"
+  118  git log
+  119  git log -- oneline
+  120  git log -- oneline/wc -l
+  121  git show 3aef170556ca76ea3c3913a5c245e4d00a03721b
+  122  git restore f2
+  123  cat f2
+  124  git restore -- staged f2
+  125  git restore --staged f2
+  126  git restore f2
+  127  cat>>f2
+  128  cat f2
+  129  git add f2
+  130  git commit -m "new line added in f2"
+  131  git log --oneline
+  132  git log --oneline/wc -l
+  133  git log --oneline/wc -1
+  134  git log --oneline|wc -l
+  135  git reset --hard HEAD~
+  136  git log --oneline|wc -l
+  137  git branch raja
+  138  git branch
+  139  git checkout -b raja
+  140  git checkout raja
+  141  git branch master
+  142  git checkout master
